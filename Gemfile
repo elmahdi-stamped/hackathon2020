@@ -29,7 +29,6 @@ gem 'turbo-rails'
 gem 'stimulus_reflex'
 gem "view_component"
 gem 'view_component_reflex'
-gem 'redis'
 gem "tailwindcss-rails"
 
 # Reduces boot times through caching; required in config/boot.rb
