@@ -4,6 +4,10 @@ import ApplicationController from '../../javascript/controllers/application_cont
  * Learn more at: https://docs.stimulusreflex.com
  */
 export default class extends ApplicationController {
+  initialize() {
+    console.log("init")
+  }
+
   connect () {
     super.connect()
     console.log("hello")
